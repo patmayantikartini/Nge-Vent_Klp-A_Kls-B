@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">nge-vent</string>
+    <string name="app_name">Nge-Vent</string>
+    <string name="home">Home</string>
+    <string name="article">Article</string>
+    <string name="webinar">Webinar</string>
+    <string name="user">Profil</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="kontenWebinar">Ikut seminar atau workshop juga akan melatih keberanian kamu berkomunikasi dengan orang-orang baru. Keahlian dan pengalaman orang-orang yang kamu temui bisa jadi penyemangat dan inspirasi juga supaya kamu tidak bosan dan menyerah untuk terus melakukan pengembangan diri.</string>
+    <string name="kontenArtikel">Menyajikan artikel yang dapat membantu dalam menstimulus wawasanmu dengan berbagai macam informasi baru yang dapat berguna bagi kita dalam mengembangkan diri dan meningkatkan skill.</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profil">Profil</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

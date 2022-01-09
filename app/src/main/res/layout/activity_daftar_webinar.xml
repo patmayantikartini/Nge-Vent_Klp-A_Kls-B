@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Masukkan Data Diri"
+    android:textColor="@color/Orange"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="20dp"/>
+
+
+    <EditText
+        android:id="@+id/bookingNama"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:hint="Nama Lengkap"
+        android:textColorHint="@color/Orange"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/bookingAlamat"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:textColorHint="@color/Orange"
+        android:hint="Alamat"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/bookingUniv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:textColorHint="@color/Orange"
+        android:hint="Asal Universitas"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+    android:id="@+id/bookingJurusan"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="350dp"
+    android:layout_height="54dp"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/border"
+    android:layout_gravity="center"
+    android:textColorHint="@color/Orange"
+    android:hint="Jurusan"
+    android:textAlignment="center"
+    android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/bookingTp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:textColorHint="@color/Orange"
+        android:hint="Nomor Telephone"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="251dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/Orange"
+        android:text="DAFTAR"
+        android:textColor="@color/white"
+        app:cornerRadius="15dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
