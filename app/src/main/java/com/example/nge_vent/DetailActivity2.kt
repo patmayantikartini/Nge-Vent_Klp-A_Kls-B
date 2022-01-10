@@ -1,4 +1,4 @@
-package com.example.nge_vent.webinar
+package com.example.nge_vent
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,13 +8,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.nge_vent.DaftarWebinar
-import com.example.nge_vent.R
 
 
 class DetailActivity2 : AppCompatActivity() {
-
-    private var title: String = "Detail"
 
     companion object {
         const val EXTRA_NAME = "extra nama"
@@ -25,7 +21,8 @@ class DetailActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail2)
-        setActionBarTitle(title)
+        var btndaftar: Button = findViewById(R.id.btndaftar2)
+
 
         val judul: TextView = findViewById(R.id.judulWebinar)
         val img_detail: ImageView = findViewById(R.id.img_detailWebinar)
@@ -43,17 +40,16 @@ class DetailActivity2 : AppCompatActivity() {
         judul.text = nama
         detail_deskripsi.text = detail
 
-        var btnWebinar: Button = findViewById(R.id.btnbookingwebinar)
 
-        btnWebinar.setOnClickListener {
-            val intent = Intent(this@DetailActivity2, DaftarWebinar::class.java)
+        btndaftar.setOnClickListener {
+            val intent = Intent(this@DetailActivity2, DaftarWebinarActivity::class.java)
             startActivity(intent)
         }
+
+        }
+
     }
 
-    private fun setActionBarTitle(title: String) {
-        supportActionBar?.title = title
-    }
-}
+
 
 

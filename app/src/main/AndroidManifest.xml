@@ -18,14 +18,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ngevent">
-<!--        <activity-->
-<!--            android:name=".DaftarSukses"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".DaftarWebinar"-->
-<!--            android:exported="false" />-->
         <activity
-            android:name=".webinar.DetailActivity2"
+            android:name=".DaftarSukses"
+            android:exported="false" />
+        <activity
+            android:name=".DaftarWebinarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity2"
             android:exported="false" />
         <activity
             android:name=".webinar.WebinarActivity"

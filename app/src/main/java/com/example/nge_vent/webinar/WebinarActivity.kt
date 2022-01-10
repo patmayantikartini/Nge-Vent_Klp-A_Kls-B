@@ -6,10 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.nge_vent.R
-import com.example.nge_vent.webinar.Webinar
-import com.example.nge_vent.webinar.WebinarData
-import com.example.nge_vent.webinar.DetailActivity2
-import com.example.nge_vent.webinar.ListWebinarAdapter
+import com.example.nge_vent.DetailActivity2
 
 class WebinarActivity : AppCompatActivity() {
 

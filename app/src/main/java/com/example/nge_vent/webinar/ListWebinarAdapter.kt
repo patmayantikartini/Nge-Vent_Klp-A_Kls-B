@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.nge_vent.R
-import com.example.nge_vent.webinar.Webinar
+
 
 class ListWebinarAdapter (private val listWebinar: ArrayList<Webinar>) : RecyclerView.Adapter<ListWebinarAdapter.ListViewHolder>(){
     private lateinit var onItemClickCallback: OnItemClickCallback

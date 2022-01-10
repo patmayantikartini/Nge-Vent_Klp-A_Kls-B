@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/latar"
     android:orientation="vertical"
-    tools:context=".WelcomeActivity">
+    tools:context=".DaftarWebinarActivity">
 
 <TextView
     android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
         android:layout_marginBottom="5dp"/>
 
     <Button
-        android:id="@+id/btn_daftar"
+        android:id="@+id/buttondaftarwebinar"
         android:layout_width="251dp"
         android:layout_height="55dp"
         android:layout_marginTop="30dp"
